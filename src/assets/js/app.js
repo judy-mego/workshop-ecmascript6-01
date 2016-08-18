@@ -1,7 +1,8 @@
-import Main from './main';
+import { Main } from './components';
 
 const main = new Main();
 
+
 window.onload = function() {
-    main.init();
+    main.init('Hello World', 'Ecmascript6');
 }
