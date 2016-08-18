@@ -1,0 +1,19 @@
+{
+  "name": "workshop-ecmascript6-01",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigigo-html5/workshop-ecmascript6-01.git"
+  },
+  "author": "Pedro José Peña <pedro.jose@gigigo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gigigo-html5/workshop-ecmascript6-01/issues"
+  },
+  "homepage": "https://github.com/gigigo-html5/workshop-ecmascript6-01#readme"
+}
