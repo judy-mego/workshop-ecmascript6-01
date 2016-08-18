@@ -17,6 +17,9 @@
     "url": "https://github.com/gigigo-html5/workshop-ecmascript6-01/issues"
   },
   "homepage": "https://github.com/gigigo-html5/workshop-ecmascript6-01#readme",
+  "browser": {
+    "components": "./src/assets/js/components/index.js"
+  },
   "devDependencies": {
     "babel-preset-es2015": "^6.13.2",
     "babelify": "^7.3.0",

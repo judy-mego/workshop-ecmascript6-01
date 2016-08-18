@@ -8,6 +8,7 @@ export default class Main {
         $('.content').html(`
             <h1>${title}</h1>
             <p>${txt}</p>
+            <a onClick="actions.loginHandler()">Login</a>
         `);
     }
 
