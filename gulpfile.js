@@ -21,6 +21,7 @@ gulp.task('serve', ['watch'], function() {
         }
     });
 
+    gulp.watch(paths.src+'/*.html', ['copy-html']).on('change', browserSync.reload);
     gulp.watch(paths.dist+'/*').on('change', browserSync.reload);
 });
 
@@ -51,6 +52,11 @@ function compile(watch) {
 function watch() {
     return compile(true);
 };
+
+gulp.task('copy-html', function(done) {
+    return gulp.src([paths.src+'/*.html'])
+        .pipe(gulp.dest(paths.dist+'/'));
+});
 
 gulp.task('build', function() { return compile(); });
 gulp.task('watch', function() { return watch(); });
